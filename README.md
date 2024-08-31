@@ -85,4 +85,28 @@
   <li>End.</li>
 </ol>
 <br>
-<h2>Reverse Diagonal </h2>
+<h2>Reverse Diagonal Sum of a Matrix</h2>
+<ol>
+  <li>Start.</li>
+  <li>Initialise i,j,r,c.</li>
+  <li>Prompt the user to enter no. of rows and columns and store it in 'r' and 'c'.</li>
+  <li>Check for square matrix: If r is not equal to c, print "Matrix is not a sqaure matrix" and terminate.</li>
+  <li>Else, initialise 2D matrix arr[r][c].</li>
+  <li>Run two loops and take input elements of the matrix from the user and terminate the loops.</li>
+  <li>Run two loops and print the matrix in grid format.</li>
+  <li>Calculate sum of the reverse diagonal elements
+  <ul>
+    <li>Initialise sum to 0.</li>
+    <li>Start loop.</li>
+    <li>Access element of diagonals using arr[i][r-i-1] and add it to sum.
+    </li>
+    <li>Terminate Loop.</li>
+  </ul>
+  </li>
+  <li>Display sum.</li>
+  <li>End.</li>
+</ol>
+<hr>
+<h1>Conclusion</h1>
+<p>
+The experiment with C++ 2D arrays and matrices enhances understanding of multi-dimensional data handling. By learning matrix operations and element manipulation, we improve our programming skills and problem-solving abilities, essential for various applications in computing and data analysis.</p>
